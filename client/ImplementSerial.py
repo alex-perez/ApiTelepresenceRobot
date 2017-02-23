@@ -66,5 +66,5 @@ def callbackBrake(brake):
     print brake
 
 
-url = "192.168.42.16:8888/wsRPI"
+url = "localhost:8888/wsRPI"
 data = GetData(url,callbackSpeedDir,callbackCamera,callbackLight,callbackBrake)
